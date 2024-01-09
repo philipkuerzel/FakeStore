@@ -75,5 +75,3 @@ document.getElementById("search").addEventListener("keyup", (event) => {
     event.preventDefault();
     searchProducts();
 });
-
-

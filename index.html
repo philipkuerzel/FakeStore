@@ -7,7 +7,27 @@
     <title>FakeStore</title>
 </head>
 <body>
-    
+    <h1>FakeStore</h1>
+    <header>
+        <form>
+            <input type="text" id="search">
+            <select name="sort by" id="sort">
+                <option value="empty">sort by</option>
+                <option value="priceUp">price up</option>
+                <option value="priceDown">price down</option>
+            </select>
+        </form>
+        <div class="filter">
+            <label for="filter">filter by categories:</label>
+            <button type="button" onclick="filterProducts('elec')">electronic</button>
+            <button type="button" onclick="filterProducts('jew')">jewelery</button>
+            <button type="button" onclick="filterProducts('men')">men's clothing</button>
+            <button type="button" onclick="filterProducts('women')">women's clothing</button>
+        </div>
+    </header>
+    <main>
+        <section class="product-container"></section>
+    </main>
 
 
     <script src="./assets/js/main.js"></script>

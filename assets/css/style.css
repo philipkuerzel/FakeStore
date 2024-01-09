@@ -81,6 +81,11 @@ header div button {
     gap: 2vh;
 }
 
+.product-container article p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
 .product-container article div {
     width: 80%;
     display: flex;

@@ -24,7 +24,7 @@ const displayProducts = (products) => {     // function to render and show the p
         img.setAttribute("src", productImg);
         productItem.appendChild(img);
 
-        let title = document.createElement("h4");
+        let title = document.createElement("p");
         title.textContent = productTitle;
         productItem.appendChild(title);
 
